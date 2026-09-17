@@ -13,12 +13,12 @@ automatic detection of shared-device (proxy) attendance attempts.
    to confirm they are physically present.
 4. The backend checks the device that submitted the scan. If the **same
    phone/browser** is used to check in a second, different student in the
-   same session, **both** records are automatically flagged for review —
+   same session, **both** records are automatically flagged for review 
    this is the classic "one person taps in for a friend" cheat.
 5. The CR (or admin) can filter, search, print or export attendance to CSV
    at any time.
 
-Login uses a **registration number + password** — no email required.
+Login uses a **registration number + password**  no email required.
 
 ## Tech stack
 
