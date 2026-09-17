@@ -6,7 +6,7 @@ automatic detection of shared-device (proxy) attendance attempts.
 
 ## How it works
 
-1. The CR opens a **session** for a lecture — this generates a QR code.
+1. The CR opens a **session** for a lecture - this generates a QR code.
 2. The QR code **rotates every 15 seconds**, so a screenshot shared in a
    group chat stops working almost immediately.
 3. Students scan the code with their phone camera, then **sign** on-screen
