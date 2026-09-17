@@ -1,4 +1,4 @@
-# Presence — QR Code Attendance System
+# Presence - QR Code Attendance System
 
 A full-stack attendance system for a Class Representative (CR) to run live
 attendance sessions with a rotating QR code, student signatures, and
@@ -97,7 +97,9 @@ Change these before deploying — the seed script is for demo/testing only.
    device fingerprint is unchanged, both records will be marked
    `flagged` and show up in red on the CR's review page — with a note
    explaining which two students shared a device.
-4. Also cr is able to upload, and update the image of student login page      to preserve and give a good visual impresion on the page, by ensuring    registration of all student in the system  
+4. Also cr is able to upload, and update the image of student login page  to preserve
+   and give a good visual impresion on the page, by ensuring
+   registration of all student in the system  
 
 ## Notes on the anti-cheat design
 
