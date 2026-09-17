@@ -89,13 +89,13 @@ Change these before deploying — the seed script is for demo/testing only.
 1. Log in as the CR, create a session, and keep that browser tab open on
    the session room (this is where the live QR is shown).
 2. Open a **second browser** (or an incognito window) and log in as
-   Student 1 (`T21-03-12345`). Use the in-app camera scanner, or — since
+   Student 1 (`T21-03-12345`). Use the in-app camera scanner, or - since
    scanning a screen-to-screen QR from a laptop webcam can be fiddly while
    testing - you can hit the API directly (see below) to simulate a scan.
 3. From that *same* browser/incognito window, log out and log back in as
    Student 2 (`T21-03-12346`), then submit attendance again. Because the
    device fingerprint is unchanged, both records will be marked
-   `flagged` and show up in red on the CR's review page — with a note
+   `flagged` and show up in red on the CR's review page - with a note
    explaining which two students shared a device.
 4. Also cr is able to upload, and update the image of student login page  to preserve
    and give a good visual impresion on the page, by ensuring
