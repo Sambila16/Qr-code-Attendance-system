@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-ink text-white font-body antialiased;
+  background-image:
+    radial-gradient(circle at 15% 0%, rgba(112, 197, 112, 0.08), transparent 40%),
+    radial-gradient(circle at 85% 10%, rgba(242, 184, 75, 0.06), transparent 35%);
+}
+
+::selection {
+  background: rgba(57, 208, 143, 0.35);
+}
+
+.card {
+  @apply bg-panel border border-white/5 rounded-2xl;
+}
+
+.btn-primary {
+  @apply bg-accent text-ink font-semibold rounded-xl px-5 py-2.5 transition hover:brightness-110 active:scale-[0.98] disabled:opacity-40 disabled:cursor-not-allowed;
+}
+
+.btn-secondary {
+  @apply bg-panel2 text-white font-medium rounded-xl px-5 py-2.5 border border-white/10 transition hover:bg-white/10 active:scale-[0.98];
+}
+
+.btn-danger {
+  @apply bg-danger/10 text-danger font-medium rounded-xl px-4 py-2 border border-danger/30 transition hover:bg-danger/20;
+}
+
+.input-field {
+  @apply w-full bg-ink border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-mist/60 focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent/50 transition;
+}
+
+.pill {
+  @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-medium;
+}
+
+/* Custom scrollbar for a more crafted feel */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.12); border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.2); }
