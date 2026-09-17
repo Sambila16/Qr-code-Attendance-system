@@ -91,7 +91,7 @@ Change these before deploying — the seed script is for demo/testing only.
 2. Open a **second browser** (or an incognito window) and log in as
    Student 1 (`T21-03-12345`). Use the in-app camera scanner, or — since
    scanning a screen-to-screen QR from a laptop webcam can be fiddly while
-   testing — you can hit the API directly (see below) to simulate a scan.
+   testing - you can hit the API directly (see below) to simulate a scan.
 3. From that *same* browser/incognito window, log out and log back in as
    Student 2 (`T21-03-12346`), then submit attendance again. Because the
    device fingerprint is unchanged, both records will be marked
